@@ -1,0 +1,29 @@
+{
+    "name": "techtailor/filter",
+    "description": "Profanity Filter for Laravel 5",
+    "type": "laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Moinuddin S. Khaja",
+            "email": "hello@moinuddin.info"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "TechTailor\\Filter\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "TechTailor\\Filter\\FilterServiceProvider"
+            ],
+            "aliases": {
+                "Filter": "TechTailor\\Filter\\Facade"
+            }
+        }
+    }
+}
